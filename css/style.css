@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Sticky */
+.navbar.sticky {
+    background-color: white;
+    transition: 1s;
+}
+
+.navbar.sticky .navbar-brand {
+    color: black !important;
+}
+
+.navbar.sticky .nav-link {
+    color: black !important;
+}
+
+.navbar.sticky .nav-link:hover {
+    color: rgb(190, 190, 190) !important;
+}
+
+.navbar.sticky i {
+    color: black !important;
+}
+
+.navbar.sticky .fa-facebook-f:hover {
+    color: #3b5998 !important;
+    transition: 1s !important;
+}
+
+.navbar.sticky .fa-twitter:hover {
+    color: #007bff !important;
+    transition: 1s !important;
+}
+
+.navbar.sticky .fa-instagram:hover {
+    color: #858585 !important;
+    transition: 1s !important;
+}
+
+.navbar.sticky .fa-envelope:hover {
+    color: #ff0000 !important;
+    transition: 1s !important;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: 0 !important;
+}
+
+.fa-bars {
+    color: whitesmoke;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    color: white !important;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.nav-link:hover {
+    color: rgb(190, 190, 190) !important;
+}
+
+/* icons */
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-envelope {
+    color: white;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+    transition: 1s;
+}
+
+.fa-twitter:hover {
+    color: #007bff;
+    transition: 1s;
+}
+
+.fa-instagram:hover {
+    color: #858585;
+    transition: 1s;
+}
+
+.fa-envelope:hover {
+    color: #ff0000;
+    transition: 1s;
+}
+
+/* Carousel */
+
+.carousel-caption {
+    bottom: 360px !important;
+    font-family: 'Merriweather', serif;
+}
+
+.carousel-caption h1 {
+    font-size: 50px !important;
+}
+
+.carousel-caption p {
+    margin-top: 20px;
+}
+
+.carousel-caption .btn {
+    background-color: #8bb8c1;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.carousel-caption .btn:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Albums */
+
+.albums .albums-title-1{
+    background-color: white;
+    height: auto;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+.albums .albums-title-2 {
+    color: #858585;
+}
+
+
+.img-1 img{
+    height: auto;
+    width: 290px;
+}
+
+.img-1 h5:hover {
+    color: #8bb8c1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-1 p {
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.img-1 p:hover {
+    color: #8bb8c1;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-2 img {
+    height: auto;
+    width: 290px;
+}
+
+.img-2 h5:hover {
+    color: #8bb8c1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-2 p {
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.img-2 p:hover {
+    color: #8bb8c1;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-3 img {
+    height: auto;
+    width: 290px;
+}
+
+.img-3 h5:hover {
+    color: #8bb8c1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-3 p {
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.img-3 p:hover {
+    color: #8bb8c1;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-4 img {
+    height: auto;
+    width: 290px;
+}
+
+.img-4 h5:hover {
+    color: #8bb8c1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-4 p {
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.img-4 p:hover {
+    color: #8bb8c1;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-5 img {
+    height: auto;
+    width: 290px;
+}
+
+.img-5 h5:hover {
+    color: #8bb8c1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-5 p {
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.img-5 p:hover {
+    color: #8bb8c1;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-6 img {
+    height: auto;
+    width: 290px;
+}
+
+.img-6 h5:hover {
+    color: #8bb8c1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-6 p {
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.img-6 p:hover {
+    color: #8bb8c1;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-7 img {
+    height: auto;
+    width: 290px;
+}
+
+.img-7 h5:hover {
+    color: #8bb8c1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-7 p {
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.img-7 p:hover {
+    color: #8bb8c1;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-8 img {
+    height: auto;
+    width: 290px;
+}
+
+.img-8 h5:hover {
+    color: #8bb8c1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-8 p {
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.img-8 p:hover {
+    color: #8bb8c1;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* Parallax */
+
+.parallax {
+    background: url(/img/blog-9.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 340px;
+}
+
+.parallax .parallax-title-1 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.parallax .parallax-title-2 {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 120px;
+    font-weight: bold;
+}
+
+/* Blog */
+
+.blog .blog-title-1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.blog .blog-title-2 {
+    text-align: center;
+    color: #858585;
+}
+
+.blog img {
+    height: auto;
+    width: 450px;
+}
+
+/* Gallery */
+
+.gallery-1 img {
+    height: auto;
+    width: 450px;
+}
+
+/* Blog-gallery */
+
+.blog-gallery h5 {
+    font-family: 'Merriweather', serif;
+}
+
+.blog-gallery p {
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    color: #858585;
+}
+
+.blog-gallery img {
+    height: auto;
+    width: 400px;
+}
+
+
+/* Header-contact */
+
+.header-contact {
+    background-color:#8bb8c1;
+    height: 250px;
+}
+
+.header-contact h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.4rem;
+    margin-top: 90px !important;
+}
+
+.btn-contact {
+    background-color: black !important;
+    width: auto;
+    height: 5vh;
+    font-weight: 600 !important;
+    color: white !important;
+    border-radius: 3rem !important;
+    margin-top: 90px;
+}
+
+.btn-contact:hover {
+    color: white;
+    background-color: rgb(102, 150, 160) !important;
+    transition: 1s;
+}
+
+/* Footer */
+
+.footer-widgets {
+    background-color: #151515;
+    padding-top: 108px;
+    color: white;
+}
+
+.footer-widgets h5 {
+    font-family: 'Merriweather', serif;
+}
+
+.footer-widgets .link p {
+    font-size: 15px;
+}
